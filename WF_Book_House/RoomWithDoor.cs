@@ -10,29 +10,9 @@ namespace WF_Book_House
     {
         public RoomWithDoor(string name, string decoration, string doorDescription) : base(name, decoration)
         {
-            this.doorDescription = doorDescription;
+            DoorDescription = doorDescription;
         }
-
-        private string doorDescription;
-        private Location doorLocation;
-        public string DoorDescription
-        {
-            get
-            {
-                return doorDescription;
-            }
-        }
-        public Location DoorLocation
-        {
-            get
-            {
-                for (int i = 0; i < base.Exits.Length; i++)
-                {
-                    if (base.Exits[i] is OutsideWithDoor)
-                        return base.Exits[i];
-                }
-                return doorLocation;
-            }
-        }
+        public string DoorDescription { get; private set; }
+        public Location DoorLocation { get; set; }
     }
 }

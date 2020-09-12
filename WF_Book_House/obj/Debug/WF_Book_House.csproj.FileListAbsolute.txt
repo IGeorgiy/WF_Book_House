@@ -1,0 +1,9 @@
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\bin\Debug\WF_Book_House.exe.config
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\bin\Debug\WF_Book_House.exe
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\bin\Debug\WF_Book_House.pdb
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\obj\Debug\WF_Book_House.csprojAssemblyReference.cache
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\obj\Debug\WF_Book_House.Form1.resources
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\obj\Debug\WF_Book_House.Properties.Resources.resources
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\obj\Debug\WF_Book_House.csproj.GenerateResource.cache
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\obj\Debug\WF_Book_House.exe
+C:\Users\S14M05\source\repos\WF_Book_House\WF_Book_House\obj\Debug\WF_Book_House.pdb

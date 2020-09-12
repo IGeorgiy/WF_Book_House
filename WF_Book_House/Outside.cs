@@ -13,5 +13,17 @@ namespace WF_Book_House
             Hot = hot;
         }
         public bool Hot { get; private set; }
+
+        public override string Description
+        {
+            get
+            {
+                string NewDescription = base.Description;
+                if (Hot)
+                    NewDescription += " Очень жарко.";
+                return NewDescription;
+            }
+        }
+
     }
 }

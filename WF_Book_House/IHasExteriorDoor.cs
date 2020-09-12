@@ -9,6 +9,6 @@ namespace WF_Book_House
     interface IHasExteriorDoor
     {
         string DoorDescription { get; }
-        Location DoorLocation { get; }
+        Location DoorLocation { get; set; }
     }
 }

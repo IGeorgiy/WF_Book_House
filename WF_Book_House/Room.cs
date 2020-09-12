@@ -10,9 +10,9 @@ namespace WF_Book_House
     {
         public Room(string name, string decoration) : base(name)
         {
-            Decoration = decoration;
+            this.decoration = decoration;
         }
-        public string Decoration { get; private set; }
-        public override string Description => base.Description + " Здесь вы видите "+Decoration;
+        private string decoration;
+        public override string Description => base.Description + " Здесь вы видите "+ decoration;
     }
 }
